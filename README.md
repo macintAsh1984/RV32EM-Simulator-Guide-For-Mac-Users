@@ -1,5 +1,4 @@
 # RV32EM Simulator Guide For Mac Users
-This is a guide for students taking ECS 50 on how to get the RISC-V simulator up and running on all Macs.
 
 _The following instructions apply to all Macs (Apple Silicon [M1, M1 Pro, & M1 Max] Macs and Macs with an x64 architecture). A Mac with an x64 architecture and another Mac with an Apple Silicon (ARM) architecture were used for testing in the making of these instructions._
 
@@ -8,15 +7,15 @@ _Do not worry if XQuartz does not ask you allow certain permissions on your Mac/
 
 _Note that **macOS 10.9 or higher** is needed to install XQuartz. To check which version of macOS is installed on your Mac, click the  Logo and then click **About This Mac**. The version number is the version of macOS your Mac is running._
 
-<img width="1000" alt="macOS Version" src="https://user-images.githubusercontent.com/84110959/155892102-52519deb-e5ec-4963-9db4-6e111f8935c0.png">
+<img width="1000" alt="A window that shows information about your Mac, including the version of macOS it is running." src="https://user-images.githubusercontent.com/84110959/155892102-52519deb-e5ec-4963-9db4-6e111f8935c0.png">
 
 ### Instructions
 
-1. **Download XQuartz** by clicking the following link: https://www.xquartz.org/
+1. **Download XQuartz** by clicking [here](https://www.xquartz.org/).
 
-2. Once you have downloaded XQuartz, open the downloaded `.dmg` file and double-click on **Quartz.pkg**. A message that says **“This package will run a program to determine if the software can be installed”** will appear. When that message appears, **click Allow**.
+2. Once you have downloaded XQuartz, open the downloaded `.dmg` file and double-click on **Quartz.pkg**. The following message shown in the image will appear. When this message appears, **click Allow**.
 
-<img width="1000" alt="XQuartz Prompt" src="https://user-images.githubusercontent.com/84110959/155892378-e6b482d4-29ea-47de-865b-67d6d2ba403d.png">
+<img width="1000" alt="A window with a message that reads: 'This package will run a program to determine if the software can be installed.'" src="https://user-images.githubusercontent.com/84110959/155892378-e6b482d4-29ea-47de-865b-67d6d2ba403d.png">
 
 
 
@@ -29,7 +28,7 @@ _Note that **macOS 10.9 or higher** is needed to install XQuartz. To check which
 
 The following prompt may appear. 
 
-<img width="1000" alt="Installer Prompt" src="https://user-images.githubusercontent.com/84110959/155892534-793f5a89-f169-48a2-a2fe-9ef547c8703e.png">
+<img width="1000" alt="A window with a message that reads 'Do you want to move the Installer to the Trash?' " src="https://user-images.githubusercontent.com/84110959/155892534-793f5a89-f169-48a2-a2fe-9ef547c8703e.png">
 
 You can click **Keep** or **Move to Trash**. Clicking either option won’t affect the installation of XQuartz. Note that when clicking **Log Out**, your Mac will log out, so you will need to log back in. Once you log back in, XQuartz will be installed.
 
@@ -53,7 +52,7 @@ Once this command is entered, XQuartz should launch and open a window with the R
 
 **Note:** If *copying/pasting the above command does not work, try typing the entire command out. Additionally, entering similar commands such as* `/home/aaron123/riscv-console/riscv-sim/bin/riscv-console-sim -d &` *should work and launch the simulator as well. Also note that the commands provided in this step are specifc to ECS 50 classes taught by Aaron Kaloti.*
 
-<img width="1158" alt="RISCV Console" src="https://user-images.githubusercontent.com/84110959/155893384-cbfec828-6b92-4855-bcd9-3cd739b9dd2e.png">
+<img width="1158" alt="The RISC-V Console in Debugger Mode." src="https://user-images.githubusercontent.com/84110959/155893384-cbfec828-6b92-4855-bcd9-3cd739b9dd2e.png">
 
 ## Reason Why This Guide Was Made
 I made this guide because I found previous instructions for running the RV32EM simualtor on the CSIF to be confusing. It took me some time to figure out how to get the simulator up and running on my Mac, and I didn't want it to be a hassle for anyone taking ECS 50 to get the simulator running. Thus, I created these instructions to making getting the simulator running easier. 
