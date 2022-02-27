@@ -1,5 +1,5 @@
 # RV32EM Simulator Guide For Mac Users
-This is a guide for how to get Professor Nitta's RISC-V simulator up and running on all Macs.
+This is a guide for students taking ECS 50 on how to get the RISC-V simulator up and running on all Macs.
 
 _The following instructions apply to all Macs (Apple Silicon [M1, M1 Pro, & M1 Max] Macs and Macs with an x64 architecture). A Mac with an x64 architecture and another Mac with an Apple Silicon (ARM) architecture were used for testing in the making of these instructions._
 
@@ -14,7 +14,7 @@ _Note that **macOS 10.9 or higher** is needed to install XQuartz. To check which
 
 1. **Download XQuartz** by clicking the following link: https://www.xquartz.org/
 
-2. Once you have download XQuartz, open the downloaded file and double-click on “XQuartz.pkg.” A message that says “This package will run a program to determine if the software can be installed” may appear. If that message appears, click “Allow.”
+2. Once you have downloaded XQuartz, open the downloaded `.dmg` file and double-click on **Quartz.pkg**. A message that says **“This package will run a program to determine if the software can be installed”** will appear. When that message appears, **click Allow**.
 
 <img width="1000" alt="XQuartz Prompt" src="https://user-images.githubusercontent.com/84110959/155892378-e6b482d4-29ea-47de-865b-67d6d2ba403d.png">
 
@@ -23,7 +23,7 @@ _Note that **macOS 10.9 or higher** is needed to install XQuartz. To check which
 
 3. The Installer window will now show. **Click** **Continue** to read over the Read Me and License Agreement. After reviewing the License Agreement, **click Agree**.
 
-4. **Click Install**. When prompted enter your Mac password/use Touch ID to continue the installation.
+4. **Click Install**. When prompted, enter your Mac password/use Touch ID to continue the installation.
 
 5. Once XQuartz is finished installing, **click Close** or **Log Out** (if you see “Log Out” instead of “Close”).
 
@@ -39,15 +39,15 @@ You can click **Keep** or **Move to Trash**. Clicking either option won’t affe
 2. **Launch Pulse Secure and connect to the Library VPN**. Connecting to the library VPN is needed to log into the CSIF. If you are not sure how to connect to the library VPN, click [here](https://www.library.ucdavis.edu/service/connect-from-off-campus/vpn-installation-guide-mac/) for further instructions.
 3. Go to Terminal and **type in the following command**:
 
-`ssh -X [username]@[pc#].cs.ucdavis.edu`
+   `ssh -X [username]@[pc#].cs.ucdavis.edu`
 
-**Example:** `ssh -X gunrock@pc2.cs.ucdavis.edu`
+    **Example:** `ssh -X gunrock@pc2.cs.ucdavis.edu`
 
 **Note:** *You only need to use the -X flag for the simulator. Past instructions talked about using both the -X flag and the -Y flag, but using just the -X still launches the simulator.*
 
 4. Once you enter in that command, enter your CSIF password. Once you are logged into the CSIF, you can now r**un the following command to launch the simulator in Debugger Mode**:
 
-`/home/aaron123/riscv-console/riscv-sim/bin/riscv-console-sim -d`
+   `/home/aaron123/riscv-console/riscv-sim/bin/riscv-console-sim -d`
 
 Once this command is entered, XQuartz should launch and open a window with the RISC-V Simulator in Debugger Mode.
 
