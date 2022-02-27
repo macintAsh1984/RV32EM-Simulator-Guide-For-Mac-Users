@@ -58,7 +58,7 @@ Once this command is entered, XQuartz should launch and open a window with the R
 ## Reason Why This Guide Was Made
 I made this guide because I found previous instructions for running the RV32EM simualtor on the CSIF to be confusing. It took me some time to figure out how to get the simulator up and running on my Mac, and I didn't want it to be a hassle for anyone taking ECS 50 to get the simulator running. Thus, I created these instructions to making getting the simulator running easier. 
 
-If you are taking ECS 50 now or in the future and you find these instructions to be outdated or need revisions, feel free to let me know
+If you are taking ECS 50 now or in the future and you find these instructions to be outdated or need revisions, feel free to let me know.
 
 
 
